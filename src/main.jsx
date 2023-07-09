@@ -9,7 +9,7 @@ import '@/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Flowbite>
+    <Flowbite theme={{ theme: { dark: true } }}>
       <App />
     </Flowbite>
   </React.StrictMode>
