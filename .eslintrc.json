@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "eslint-config-prettier"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "react-refresh"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/prop-types": "off",
+    "no-unused-vars": "error",
+    "react-refresh/only-export-components": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Ignorar archivos y carpetas generados por Vite
+dist/
+.build/
+node_modules/
+
+# Ignorar archivos específicos
+*.css
+*.html

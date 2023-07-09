@@ -1,0 +1,23 @@
+# Ignorar archivos y carpetas generados por Vite
+dist/
+.build/
+node_modules/
+
+# Ignorar archivos de configuración
+.eslintignore
+.gitignore
+.prettierignore
+
+# Ignorar archivos de configuración específicos de editores de código
+.vscode/
+.idea/
+
+# Ignorar archivos de respaldo y caché de editores de texto
+*~
+*.bak
+*.swp
+*.tmp
+
+# Ignorar archivos específicos
+package-lock.json
+yarn.lock
