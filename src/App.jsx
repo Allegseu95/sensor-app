@@ -343,7 +343,13 @@ export const App = () => {
       <Tabs.Group aria-label='Default tabs' style='default'>
         <Tabs.Item active icon={MdDashboard} title='Dashboard'>
           <div className='w-full flex flex-row mb-5' style={{ height: '500px' }}>
-            <div className='w-1/2 flex justify-center items-center'>
+            <div className='w-1/2 flex justify-center items-center flex-col'>
+              <a
+                className='bg-cyan-300 p-3 mb-2 '
+                target='_blank'
+                href='https://colab.research.google.com/drive/1srARKPEm8IxaTLpUJ_1tVEe4_G3jw0kC'>
+                Machine learning
+              </a>
               <Line options={options} data={dataline} className='bg-gray-700 dark:bg-transparent' />
             </div>
 
